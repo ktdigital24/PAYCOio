@@ -107,7 +107,7 @@ def main():
         main_menu()
         choice = input(Fore.CYAN + "Masukkan pilihan Anda: ")
         
-        if choice in {'0', '1', '2', '3', '4''}:  # Tambah pilihan '4'
+        if choice in {'0', '1', '2', '3', '4'}:  
             if choice == '0':
                 print(Fore.YELLOW + "Keluar dari program.")
                 break
